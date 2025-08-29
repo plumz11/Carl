@@ -48,8 +48,6 @@ public class Age extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 120, -1));
-
-        jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 230, -1, -1));
 
         pack();
@@ -61,7 +59,7 @@ public class Age extends javax.swing.JFrame {
 
         if (age >=18 && age <=100)
         {
-            JOptionPane.showConfirmDialog(null,"UNABLE TO VOTE", "VOTING", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showConfirmDialog(null,"ABLE TO VOTE", "VOTING", JOptionPane.INFORMATION_MESSAGE);
 
         }
 
